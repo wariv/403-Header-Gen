@@ -82,7 +82,7 @@ if args.split:
 				if args.upper:
 					f.write(h.upper() + "\n")
 				if args.underscore:
-					f.write(re.sub(r"-","_",h))
+					f.write(re.sub(r"-","_",h) + "\n")
 		else:
 			print(h)
 			if args.upper:
