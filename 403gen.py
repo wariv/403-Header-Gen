@@ -86,7 +86,7 @@ if args.split:
 		else:
 			print(h)
 			if args.upper:
-					print(h.upper())
+				print(h.upper())
 			if args.underscore:
 				print(re.sub(r"-","_",h))
 	if args.outfile:
